@@ -16,12 +16,13 @@
 #include "xparameters.h"				/* constants used by the hardware */
 #include <stdlib.h>
 #include <strings.h>
+#include "led.h"
 
 #define OUTPUT 0x0							/* setting GPIO direction to output */
 #define CHANNEL1 1							/* channel 1 of the GPIO port */
 
 int main() {
-	XGpio port;									/* GPIO port connected to the leds */
+//	XGpio port;									/* GPIO port connected to the leds */
 
 	init_platform();							/* initialize the hardware platform */
 
@@ -33,9 +34,12 @@ int main() {
 	 
 	printf("[Hello]\n");
 	 
-	XGpio_Initialize(&port, XPAR_AXI_GPIO_0_DEVICE_ID);	/* initialize device AXI_GPIO_0 */
-	XGpio_SetDataDirection(&port, CHANNEL1, OUTPUT);	    /* set tristate buffer to output */
-	XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);						/* turn on led0 */
+//	XGpio_Initialize(&port, XPAR_AXI_GPIO_0_DEVICE_ID);	/* initialize device AXI_GPIO_0 */
+//	XGpio_SetDataDirection(&port, CHANNEL1, OUTPUT);	    /* set tristate buffer to output */
+//	XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);						/* turn on led0 */
+
+	led_init();
+	led_set(0, true);
 
 	while (1) {
 		char c, str[64] = "";
@@ -51,13 +55,7 @@ int main() {
 
 		// print "[#]" if is number 0 to 3
 		if (strcmp(str, "0") == 0) {
-			u32 led_stat = XGpio_DiscreteRead(&port, CHANNEL1);
-
-			if (led_stat == 0) {
-				XGpio_DiscreteWrite(&port, CHANNEL1, 0x1);
-			} else {
-				XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);
-			}
+			led_toggle(0);
 
 			int num = strtol(str, &ptr, 10);
 			printf("\n[%d]", num);
@@ -70,7 +68,7 @@ int main() {
 		} else if (strcmp(str, "q") == 0) {
 			printf("\n");
 
-			XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);						/* turn off led0 */
+			led_set(0, false);
 
 			break;
 		}
