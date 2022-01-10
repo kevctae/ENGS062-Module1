@@ -1,4 +1,4 @@
-20:58:52 **** Build of configuration Debug for project module1_vts ****
+23:17:12 **** Incremental Build of configuration Debug for project module1_vts ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -9,11 +9,6 @@ Invoking: ARM v7 gcc compiler
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/blinky.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/blinky.d" -MT"src/blinky.o" -o "src/blinky.o" "../src/blinky.c"
 Finished building: ../src/blinky.c
  
-Building file: ../src/platform.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-Finished building: ../src/platform.c
- 
 Building target: module1_vts.elf
 Invoking: ARM v7 gcc linker
 arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "module1_vts.elf"  ./src/blinky.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
@@ -22,9 +17,9 @@ Finished building target: module1_vts.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size module1_vts.elf  |tee "module1_vts.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  30510	   2200	  22648	  55358	   d83e	module1_vts.elf
+  53799	   2564	  22640	  79003	  1349b	module1_vts.elf
 Finished building: module1_vts.elf.size
  
 
-20:58:52 Build Finished (took 418ms)
+23:17:12 Build Finished (took 476ms)
 
