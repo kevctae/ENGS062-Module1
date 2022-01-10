@@ -3337,3 +3337,493 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-11: Launc
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:47:32.252
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-11: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:13.418
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:13.423
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:13.424
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:13.427
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-10 15:52:13.428
+!MESSAGE Generating MD5 hash for file: /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:13.429
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:13.432
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2022-01-10 15:52:13.995
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:18.937
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:18.945
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:18.948
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:18.952
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-10 15:52:18.952
+!MESSAGE Generating MD5 hash for file: /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:18.953
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:18.955
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-17: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:34.949
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:34.953
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.840
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.844
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.845
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.847
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#17]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.849
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.860
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.861
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.876
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.878
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.934
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:36.939
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:37.047
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:37.048
+!MESSAGE XSCT Command: [fpga -file /home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:38.255
+!MESSAGE XSCT command with result: [fpga -file /home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:39.056
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:39.058
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.169
+!MESSAGE XSCT Command: [disconnect tcfchan#17], Thread: Thread-1134
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.180
+!MESSAGE XSCT command with result: [disconnect tcfchan#17], Result: [null, ]. Thread: Thread-1134
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.435
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.444
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#19]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.444
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.463
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.464
+!MESSAGE XSCT Command: [version -server], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.466
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2.0]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.467
+!MESSAGE XSCT Command: [version], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.468
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 3363252 on 2021-10-14-04:41:01
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.469
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.483
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.484
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.525
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.525
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.544
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.545
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.588
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.589
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.606
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.607
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.643
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.644
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.664
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.664
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.701
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.702
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.714
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.715
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.763
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.763
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.774
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.775
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.809
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.810
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AF242FA" && level == 0}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.857
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AF242FA" && level == 0}], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.858
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.861
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.862
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.892
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.892
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.955
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:45.956
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:48.958
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:48.983
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:49.003
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AF242FA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:49.003
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:49.053
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:49.056
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:49.132
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:49.133
+!MESSAGE XSCT Command: [fpga -file /home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:50.338
+!MESSAGE XSCT command with result: [fpga -file /home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:50.367
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:50.384
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:50.385
+!MESSAGE XSCT Command: [loadhw -hw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.656
+!MESSAGE XSCT command with result: [loadhw -hw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, module1_hw_wrapper_6]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.657
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.658
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.659
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.671
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.672
+!MESSAGE XSCT Command: [source /home/thayer/workspace/module1_vts/_ide/psinit/ps7_init.tcl], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.675
+!MESSAGE XSCT command with result: [source /home/thayer/workspace/module1_vts/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:54.676
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.287
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.288
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.299
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.300
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.319
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.320
+!MESSAGE XSCT Command: [dow /home/thayer/workspace/module1_vts/Debug/module1_vts.elf], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.583
+!MESSAGE XSCT command with result: [dow /home/thayer/workspace/module1_vts/Debug/module1_vts.elf], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.591
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.632
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.665
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.696
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.696
+!MESSAGE XSCT Command: [con], Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-10 15:52:55.749
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-10: Launching SystemDebugger_module1_vts_system
+
+!ENTRY org.eclipse.ui.workbench 4 2 2022-01-10 15:54:05.408
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:594)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.isSharedWithGit(ResourceUtil.java:114)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.isValid(ResourceUtil.java:110)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getContainerForLocation(ResourceUtil.java:134)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getResourceForLocation(ResourceUtil.java:74)
+	at org.eclipse.egit.ui.internal.repository.RepositoriesView.getShowInElements(RepositoriesView.java:822)
+	at org.eclipse.egit.ui.internal.repository.RepositoriesView.getShowInContext(RepositoriesView.java:793)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.getContext(WorkbenchSourceProvider.java:392)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.updateActivePart(WorkbenchSourceProvider.java:444)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:282)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:277)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$1.partDeactivated(WorkbenchSourceProvider.java:222)
+	at org.eclipse.ui.internal.PartService$4.run(PartService.java:121)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.PartService.partDeactivated(PartService.java:118)
+	at org.eclipse.ui.internal.WorkbenchPage$7.run(WorkbenchPage.java:4949)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartDeactivated(WorkbenchPage.java:4946)
+	at org.eclipse.ui.internal.WorkbenchPage.access$6(WorkbenchPage.java:4936)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partDeactivated(WorkbenchPage.java:228)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$4.run(PartServiceImpl.java:269)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartDeactivated(PartServiceImpl.java:266)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:750)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:683)
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.lambda$0(ContributedPartRenderer.java:63)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5687)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1449)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1432)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:2106)
+	at org.eclipse.swt.widgets.Control.gtk_button_press_event(Control.java:3600)
+	at org.eclipse.swt.widgets.Control.gtk_button_press_event(Control.java:3496)
+	at org.eclipse.swt.widgets.Composite.gtk_button_press_event(Composite.java:839)
+	at org.eclipse.swt.widgets.Tree.gtk_button_press_event(Tree.java:2134)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2250)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6679)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:4184)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5928)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1486)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4446)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2022-01-10 15:54:05.414
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.team.core.RepositoryProvider.getProvider(RepositoryProvider.java:594)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.isSharedWithGit(ResourceUtil.java:114)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.isValid(ResourceUtil.java:110)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getContainerForLocation(ResourceUtil.java:134)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getResourceForLocation(ResourceUtil.java:74)
+	at org.eclipse.egit.ui.internal.repository.RepositoriesView.getShowInElements(RepositoriesView.java:822)
+	at org.eclipse.egit.ui.internal.repository.RepositoriesView.getShowInContext(RepositoriesView.java:793)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.getContext(WorkbenchSourceProvider.java:392)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.updateActivePart(WorkbenchSourceProvider.java:444)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:282)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.checkActivePart(WorkbenchSourceProvider.java:277)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$1.partActivated(WorkbenchSourceProvider.java:207)
+	at org.eclipse.ui.internal.PartService$1.run(PartService.java:85)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.PartService.partActivated(PartService.java:82)
+	at org.eclipse.ui.internal.WorkbenchWindow$WWinPartService.partActivated(WorkbenchWindow.java:3186)
+	at org.eclipse.ui.internal.WorkbenchPage$3.run(WorkbenchPage.java:4894)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartActivated(WorkbenchPage.java:4891)
+	at org.eclipse.ui.internal.WorkbenchPage.access$3(WorkbenchPage.java:4876)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:216)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:774)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:683)
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.lambda$0(ContributedPartRenderer.java:63)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5687)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1449)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1432)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:2106)
+	at org.eclipse.swt.widgets.Control.gtk_button_press_event(Control.java:3600)
+	at org.eclipse.swt.widgets.Control.gtk_button_press_event(Control.java:3496)
+	at org.eclipse.swt.widgets.Composite.gtk_button_press_event(Composite.java:839)
+	at org.eclipse.swt.widgets.Tree.gtk_button_press_event(Tree.java:2134)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2250)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6679)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:4184)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5928)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1486)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4446)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
