@@ -1,6 +1,6 @@
 Nothing to build in platform 'module1_hw_wrapper'
 
-15:52:18 **** Incremental Build of configuration Debug for project module1_vts ****
+16:39:54 **** Incremental Build of configuration Debug for project module1_vts ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -19,10 +19,10 @@ Finished building target: module1_vts.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size module1_vts.elf  |tee "module1_vts.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  54767	   2564	  22656	  79987	  13873	module1_vts.elf
+  58243	   2572	  22656	  83471	  1460f	module1_vts.elf
 Finished building: module1_vts.elf.size
  
-15:52:19 **** Incremental Build of configuration Debug for project module1_vts_system ****
+16:39:56 **** Incremental Build of configuration Debug for project module1_vts_system ****
 make all 
 Generating bif file for the system project
 Executing command '::scw::generate_bif -xpfm /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/module1_hw_wrapper.xpfm -domains standalone_ps7_cortexa9_0 -bifpath /home/thayer/workspace/module1_vts_system/Debug/system.bif' on XSCT
