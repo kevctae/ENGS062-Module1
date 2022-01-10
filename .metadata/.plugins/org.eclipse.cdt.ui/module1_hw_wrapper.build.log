@@ -1,6 +1,2 @@
-14:22:32 **** Incremental Build of project module1_hw_wrapper ****
-buildplatform.sh 40911 module1_hw_wrapper no_domain_build 
-XSDB Server Channel: tcfchan#1
-
-14:22:40 Build Finished (took 8s.649ms)
+Nothing to build in platform 'module1_hw_wrapper'
 

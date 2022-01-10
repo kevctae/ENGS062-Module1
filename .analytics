@@ -149,3 +149,9 @@ timestamp=[2022-01-10 13:48:04], mode=WORKBENCH_UI_INIT, duration=0:00:02.449, d
 timestamp=[2022-01-10 14:22:41], mode=PLATFORM_GENERATION, duration=0:00:08.803, duration_ms=8803, data={name=module1_hw_wrapper}
 timestamp=[2022-01-10 14:22:46], mode=BUILD, duration=0:00:00.815, duration_ms=815, data={name=module1_vts, configuration=Debug, clean_build=false}
 timestamp=[2022-01-10 14:22:59], mode=BUILD, duration=0:00:12.359, duration_ms=12359, data={name=module1_vts_system, configuration=Debug, clean_build=false}
+timestamp=[2022-01-10 14:32:05], mode=BUILD, duration=0:00:00.668, duration_ms=668, data={name=module1_vts, configuration=Debug, clean_build=false}
+timestamp=[2022-01-10 14:32:18], mode=BUILD, duration=0:00:12.726, duration_ms=12726, data={name=module1_vts_system, configuration=Debug, clean_build=false}
+timestamp=[2022-01-10 14:33:08], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=module1_vts, configuration=Debug, clean_build=false}
+timestamp=[2022-01-10 14:33:21], mode=BUILD, duration=0:00:12.684, duration_ms=12684, data={name=module1_vts_system, configuration=Debug, clean_build=false}
+timestamp=[2022-01-10 14:34:42], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=module1_vts, configuration=Debug, clean_build=false}
+timestamp=[2022-01-10 14:34:54], mode=BUILD, duration=0:00:11.777, duration_ms=11777, data={name=module1_vts_system, configuration=Debug, clean_build=false}
