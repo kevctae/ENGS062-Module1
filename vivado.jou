@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Jan  9 20:52:40 2022
+# Process ID: 27331
+# Current directory: /home/thayer/workspace
+# Command line: vivado
+# Log file: /home/thayer/workspace/vivado.log
+# Journal file: /home/thayer/workspace/vivado.jou
+# Running On: thayer-t480-linux, OS: Linux, CPU Frequency: 3333.613 MHz, CPU Physical cores: 4, Host memory: 16675 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/thayer/workspace/module1/module1.xpr
+update_compile_order -fileset sources_1

@@ -83,3 +83,63 @@ con
 19:26:00 INFO  : plnx-install-location is set to ''
 19:26:00 INFO  : Successfully done setting workspace for the tool. 
 19:26:00 INFO  : Successfully done query RDI_DATADIR 
+20:54:35 INFO  : Logs will be stored at '/home/thayer/workspace/IDE.log'.
+20:54:36 INFO  : Launching XSCT server: xsct -n  -interactive /home/thayer/workspace/temp_xsdb_launch_script.tcl
+20:54:38 INFO  : Platform repository initialization has completed.
+20:54:40 INFO  : Registering command handlers for Vitis TCF services
+20:54:43 INFO  : XSCT server has started successfully.
+20:54:43 INFO  : plnx-install-location is set to ''
+20:54:43 INFO  : Successfully done setting XSCT server connection channel  
+20:54:43 INFO  : Successfully done setting workspace for the tool. 
+20:54:43 INFO  : Successfully done query RDI_DATADIR 
+20:58:46 INFO  : Result from executing command 'getProjects': module1_hw_wrapper
+20:58:46 INFO  : Result from executing command 'getPlatforms': module1_hw_wrapper|/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/module1_hw_wrapper.xpfm
+20:58:49 INFO  : Checking for BSP changes to sync application flags for project 'module1_vts'...
+21:00:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}' command is executed.
+21:00:24 INFO  : Device configured successfully with "/home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit"
+21:01:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:01:40 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF242FA' is selected.
+21:01:40 INFO  : 'jtag frequency' command is executed.
+21:01:40 INFO  : Context for 'APU' is selected.
+21:01:40 INFO  : System reset is completed.
+21:01:43 INFO  : 'after 3000' command is executed.
+21:01:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}' command is executed.
+21:01:44 INFO  : Device configured successfully with "/home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit"
+21:01:44 INFO  : Context for 'APU' is selected.
+21:01:44 INFO  : Hardware design and registers information is loaded from '/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa'.
+21:01:44 INFO  : 'configparams force-mem-access 1' command is executed.
+21:01:44 INFO  : Context for 'APU' is selected.
+21:01:44 INFO  : Sourcing of '/home/thayer/workspace/module1_vts/_ide/psinit/ps7_init.tcl' is done.
+21:01:45 INFO  : 'ps7_init' command is executed.
+21:01:45 INFO  : 'ps7_post_config' command is executed.
+21:01:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:01:45 INFO  : The application '/home/thayer/workspace/module1_vts/Debug/module1_vts.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:01:45 INFO  : 'configparams force-mem-access 0' command is executed.
+21:01:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}
+fpga -file /home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/thayer/workspace/module1_vts/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/thayer/workspace/module1_vts/Debug/module1_vts.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:01:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:01:45 INFO  : 'con' command is executed.
+21:01:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:01:45 INFO  : Launch script is exported to file '/home/thayer/workspace/module1_vts_system/_ide/scripts/systemdebugger_module1_vts_system_standalone.tcl'

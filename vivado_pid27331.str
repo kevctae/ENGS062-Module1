@@ -1,0 +1,136 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 27331
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Jan 09 20:53:02 EST 2022
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Ubuntu
+OS Version: 5.4.0-92-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: 0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/opt/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/opt/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	thayer
+User home directory: /home/thayer
+User working directory: /home/thayer/workspace
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/xilinx/Vivado
+HDI_APPROOT: /opt/xilinx/Vivado/current
+RDI_DATADIR: /opt/xilinx/Vivado/2021.2/data
+RDI_BINDIR: /opt/xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: /home/thayer/.Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: /home/thayer/.Xilinx/Vivado/2021.2/
+Vivado layouts directory: /home/thayer/.Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	/opt/xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/thayer/workspace/vivado.log
+Vivado journal file: 	/home/thayer/workspace/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-27331-thayer-t480-linux
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/xilinx/Vivado/current/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@xilinx-license.thayer.dartmouth.edu
+XILINX_DSP: /opt/xilinx/Vivado/current/ids_lite/ISE
+XILINX_HLS: /opt/xilinx/bin/../Vitis_HLS/current
+XILINX_PLANAHEAD: /opt/xilinx/Vivado/current
+XILINX_SDK: /opt/xilinx/Vitis/current
+XILINX_VITIS: /opt/xilinx/Vitis/current
+XILINX_VIVADO: /opt/xilinx/Vivado/current
+XILINX_VIVADO_HLS: /opt/xilinx/Vivado/current
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,968 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,914 MB. GUI used memory: 54 MB. Current time: 1/9/22, 8:53:03 PM EST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/thayer/workspace/module1/module1.xpr", 0); // r
+// [GUI Memory]: 72 MB (+73497kb) [00:00:19]
+// [Engine Memory]: 1,916 MB (+1857628kb) [00:00:19]
+// Opening Vivado Project: /home/thayer/workspace/module1/module1.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/thayer/workspace/module1/module1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/current/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 2,104 MB (+96294kb) [00:00:25]
+// [GUI Memory]: 109 MB (+34191kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  5828 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,045 MB. GUI used memory: 65 MB. Current time: 1/9/22, 8:53:18 PM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  1332 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:08 . Memory (MB): peak = 7884.805 ; gain = 108.203 ; free physical = 8495 ; free virtual = 15108 
+// Project name: module1; location: /home/thayer/workspace/module1; part: xc7z010clg400-1
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 55 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenuItem((HResource) null, "Launch Vitis IDE"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// 'X' command handler elapsed time: 3 seconds
+dismissDialog("Launch Vitis IDE"); // bA
+// [GUI Memory]: 117 MB (+3330kb) [00:04:50]
