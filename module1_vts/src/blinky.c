@@ -54,15 +54,19 @@ int main() {
 		char *ptr;
 
 		// print "[#]" if is number 0 to 3
-		if (strcmp(str, "0") == 0) {
-			led_toggle(0);
-
+		if (strcmp(str, "0") == 0 || strcmp(str, "1") == 0 || strcmp(str, "2") == 0 || strcmp(str, "3") == 0) {
 			int num = strtol(str, &ptr, 10);
-			printf("\n[%d]", num);
 
-		} else if (strcmp(str, "1") == 0 || strcmp(str, "2") == 0 || strcmp(str, "3") == 0) {
-			int num = strtol(str, &ptr, 10);
-			printf("\n[%d]", num);
+			led_toggle(num);
+			bool led_state = led_get(num);
+
+			printf("\n[%d ", num);
+			if (led_state) {
+				printf("on");
+			} else {
+				printf("off");
+			}
+			printf("]");
 
 		// exit if is 'q' character
 		} else if (strcmp(str, "q") == 0) {
