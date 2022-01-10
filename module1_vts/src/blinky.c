@@ -50,7 +50,19 @@ int main() {
 		char *ptr;
 
 		// print "[#]" if is number 0 to 3
-		if (strcmp(str, "0") == 0 || strcmp(str, "1") == 0 || strcmp(str, "2") == 0 || strcmp(str, "3") == 0) {
+		if (strcmp(str, "0") == 0) {
+			u32 led_stat = XGpio_DiscreteRead(&port, CHANNEL1);
+
+			if (led_stat == 0) {
+				XGpio_DiscreteWrite(&port, CHANNEL1, 0x1);
+			} else {
+				XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);
+			}
+
+			int num = strtol(str, &ptr, 10);
+			printf("\n[%d]", num);
+
+		} else if (strcmp(str, "1") == 0 || strcmp(str, "2") == 0 || strcmp(str, "3") == 0) {
 			int num = strtol(str, &ptr, 10);
 			printf("\n[%d]", num);
 
