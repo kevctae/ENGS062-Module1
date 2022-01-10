@@ -1,0 +1,85 @@
+22:56:07 INFO  : Logs will be stored at '/home/thayer/workspace/IDE.log'.
+22:56:09 INFO  : Launching XSCT server: xsct -n  -interactive /home/thayer/workspace/temp_xsdb_launch_script.tcl
+22:56:09 INFO  : Platform repository initialization has completed.
+22:56:10 INFO  : Registering command handlers for Vitis TCF services
+22:56:15 INFO  : XSCT server has started successfully.
+22:56:15 INFO  : plnx-install-location is set to ''
+22:56:15 INFO  : Successfully done setting XSCT server connection channel  
+22:56:15 INFO  : Successfully done query RDI_DATADIR 
+22:56:15 INFO  : Successfully done setting workspace for the tool. 
+23:03:20 INFO  : Result from executing command 'getProjects': module1_hw_wrapper
+23:03:20 INFO  : Result from executing command 'getPlatforms': 
+23:03:20 WARN  : An unexpected exception occurred in the module 'platform project logging'
+23:03:20 INFO  : Platform 'module1_hw_wrapper' is added to custom repositories.
+23:03:31 INFO  : Platform 'module1_hw_wrapper' is added to custom repositories.
+23:20:28 INFO  : Result from executing command 'getProjects': module1_hw_wrapper
+23:20:28 INFO  : Result from executing command 'getPlatforms': module1_hw_wrapper|/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/module1_hw_wrapper.xpfm
+23:20:32 INFO  : Checking for BSP changes to sync application flags for project 'module1_vts'...
+23:21:28 INFO  : Checking for BSP changes to sync application flags for project 'module1_vts'...
+23:25:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:25:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}' command is executed.
+23:25:19 INFO  : Device configured successfully with "/home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit"
+23:26:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:26:03 INFO  : Jtag cable 'Digilent Zybo Z7 210351AF242FA' is selected.
+23:26:03 INFO  : 'jtag frequency' command is executed.
+23:26:03 INFO  : Context for 'APU' is selected.
+23:26:03 INFO  : System reset is completed.
+23:26:06 INFO  : 'after 3000' command is executed.
+23:26:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}' command is executed.
+23:26:07 INFO  : Device configured successfully with "/home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit"
+23:26:07 INFO  : Context for 'APU' is selected.
+23:26:07 INFO  : Hardware design and registers information is loaded from '/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa'.
+23:26:07 INFO  : 'configparams force-mem-access 1' command is executed.
+23:26:07 INFO  : Context for 'APU' is selected.
+23:26:07 INFO  : Sourcing of '/home/thayer/workspace/module1_vts/_ide/psinit/ps7_init.tcl' is done.
+23:26:08 INFO  : 'ps7_init' command is executed.
+23:26:08 INFO  : 'ps7_post_config' command is executed.
+23:26:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:26:08 INFO  : The application '/home/thayer/workspace/module1_vts/Debug/module1_vts.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:26:08 INFO  : 'configparams force-mem-access 0' command is executed.
+23:26:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AF242FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AF242FA-13722093-0"}
+fpga -file /home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/hw/module1_hw_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/thayer/workspace/module1_vts/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/thayer/workspace/module1_vts/Debug/module1_vts.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:26:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:26:08 INFO  : 'con' command is executed.
+23:26:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:26:08 INFO  : Launch script is exported to file '/home/thayer/workspace/module1_vts_system/_ide/scripts/systemdebugger_module1_vts_system_standalone.tcl'
+23:28:28 INFO  : Disconnected from the channel tcfchan#4.
+23:33:23 INFO  : Logs will be stored at '/home/thayer/workspace/IDE.log'.
+23:33:24 INFO  : Launching XSCT server: xsct -n  -interactive /home/thayer/workspace/temp_xsdb_launch_script.tcl
+23:33:26 INFO  : Platform repository initialization has completed.
+23:33:27 INFO  : Registering command handlers for Vitis TCF services
+23:33:31 INFO  : XSCT server has started successfully.
+23:33:31 INFO  : Successfully done setting XSCT server connection channel  
+23:33:31 INFO  : plnx-install-location is set to ''
+23:33:31 INFO  : Successfully done setting workspace for the tool. 
+23:33:31 INFO  : Successfully done query RDI_DATADIR 
+19:25:52 INFO  : Logs will be stored at '/home/thayer/workspace/IDE.log'.
+19:25:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/thayer/workspace/temp_xsdb_launch_script.tcl
+19:25:55 INFO  : Platform repository initialization has completed.
+19:25:56 INFO  : Registering command handlers for Vitis TCF services
+19:25:59 INFO  : XSCT server has started successfully.
+19:25:59 INFO  : Successfully done setting XSCT server connection channel  
+19:26:00 INFO  : plnx-install-location is set to ''
+19:26:00 INFO  : Successfully done setting workspace for the tool. 
+19:26:00 INFO  : Successfully done query RDI_DATADIR 
