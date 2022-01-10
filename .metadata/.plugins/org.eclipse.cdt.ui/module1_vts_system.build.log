@@ -1,4 +1,4 @@
-14:34:42 **** Incremental Build of configuration Debug for project module1_vts_system ****
+15:15:51 **** Incremental Build of configuration Debug for project module1_vts_system ****
 make all 
 Generating bif file for the system project
 Executing command '::scw::generate_bif -xpfm /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/module1_hw_wrapper.xpfm -domains standalone_ps7_cortexa9_0 -bifpath /home/thayer/workspace/module1_vts_system/Debug/system.bif' on XSCT
@@ -6,5 +6,5 @@ sdcard_gen --xpfm /home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wr
 creating BOOT.BIN using /home/thayer/workspace/module1_vts/_ide/bitstream/module1_hw_wrapper.bit
 Running /opt/xilinx/Vitis/2021.2/bin/bootgen  -image /home/thayer/workspace/module1_vts_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
 
-14:34:54 Build Finished (took 11s.766ms)
+15:16:03 Build Finished (took 12s.111ms)
 
