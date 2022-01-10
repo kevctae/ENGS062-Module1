@@ -35,7 +35,7 @@ int main() {
 	 
 	XGpio_Initialize(&port, XPAR_AXI_GPIO_0_DEVICE_ID);	/* initialize device AXI_GPIO_0 */
 	XGpio_SetDataDirection(&port, CHANNEL1, OUTPUT);	    /* set tristate buffer to output */
-	XGpio_DiscreteWrite(&port, CHANNEL1, 0x1);						/* turn on led0 */
+	XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);						/* turn on led0 */
 
 	while (1) {
 		char c, str[64] = "";
