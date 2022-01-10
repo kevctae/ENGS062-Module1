@@ -1,4 +1,4 @@
-23:17:12 **** Incremental Build of configuration Debug for project module1_vts ****
+14:22:45 **** Incremental Build of configuration Debug for project module1_vts ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -8,6 +8,11 @@ Building file: ../src/blinky.c
 Invoking: ARM v7 gcc compiler
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/blinky.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/blinky.d" -MT"src/blinky.o" -o "src/blinky.o" "../src/blinky.c"
 Finished building: ../src/blinky.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/thayer/workspace/module1_hw_wrapper/export/module1_hw_wrapper/sw/module1_hw_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
  
 Building target: module1_vts.elf
 Invoking: ARM v7 gcc linker
@@ -21,5 +26,5 @@ arm-none-eabi-size module1_vts.elf  |tee "module1_vts.elf.size"
 Finished building: module1_vts.elf.size
  
 
-23:17:12 Build Finished (took 476ms)
+14:22:46 Build Finished (took 777ms)
 

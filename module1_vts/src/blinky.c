@@ -57,6 +57,9 @@ int main() {
 		// exit if is 'q' character
 		} else if (strcmp(str, "q") == 0) {
 			printf("\n");
+
+			XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);						/* turn off led0 */
+
 			break;
 		}
 
