@@ -22,7 +22,7 @@
 #define CHANNEL1 1							/* channel 1 of the GPIO port */
 
 int main() {
-//	XGpio port;									/* GPIO port connected to the leds */
+	XGpioPs port;									/* GPIO port connected to the leds */
 
 	init_platform();							/* initialize the hardware platform */
 
@@ -37,6 +37,12 @@ int main() {
 //	XGpio_Initialize(&port, XPAR_AXI_GPIO_0_DEVICE_ID);	/* initialize device AXI_GPIO_0 */
 //	XGpio_SetDataDirection(&port, CHANNEL1, OUTPUT);	    /* set tristate buffer to output */
 //	XGpio_DiscreteWrite(&port, CHANNEL1, 0x0);						/* turn on led0 */
+
+	XGpioPs_Config *config = XGpioPs_LookupConfig(XPAR_XGPIOPS_0_DEVICE_ID);
+	XGpioPs_CfgInitialize(&port, config, config->BaseAddr);
+	XGpioPs_SetDirectionPin(&port, 7, 1);
+	XGpioPs_SetOutputEnablePin(&port, 7, 1);
+	XGpioPs_WritePin(&port, 7, 1);
 
 	led_init();
 	led_set(0, true);
@@ -73,6 +79,7 @@ int main() {
 			printf("\n");
 
 			led_set(0, false);
+			XGpioPs_WritePin(&port, 7, 0);
 
 			break;
 		}
