@@ -143,3 +143,12 @@ con
 ----------------End of Script----------------
 
 21:01:45 INFO  : Launch script is exported to file '/home/thayer/workspace/module1_vts_system/_ide/scripts/systemdebugger_module1_vts_system_standalone.tcl'
+13:47:58 INFO  : Logs will be stored at '/home/thayer/workspace/IDE.log'.
+13:47:58 INFO  : Platform repository initialization has completed.
+13:48:02 INFO  : Launching XSCT server: xsct -n  -interactive /home/thayer/workspace/temp_xsdb_launch_script.tcl
+13:48:02 INFO  : Registering command handlers for Vitis TCF services
+13:48:09 INFO  : XSCT server has started successfully.
+13:48:09 INFO  : plnx-install-location is set to ''
+13:48:09 INFO  : Successfully done setting XSCT server connection channel  
+13:48:09 INFO  : Successfully done setting workspace for the tool. 
+13:48:09 INFO  : Successfully done query RDI_DATADIR 

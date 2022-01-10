@@ -31,3 +31,8 @@ bsp reload
 domain active {zynq_fsbl}
 bsp reload
 platform generate -domains 
+platform active {module1_hw_wrapper}
+domain active {standalone_ps7_cortexa9_0}
+bsp reload
+domain active {zynq_fsbl}
+bsp reload

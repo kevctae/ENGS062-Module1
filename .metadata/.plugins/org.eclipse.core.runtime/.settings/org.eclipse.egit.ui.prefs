@@ -1,0 +1,6 @@
+//BranchProjectTracker__/home/thayer/workspace/.git_main=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="main">\n<project>/RemoteSystemsTempFiles</project>\n<project>/module1_hw_wrapper</project>\n<project>/module1_vts</project>\n<project>/module1_vts_system</project>\n</projects>
+//BranchProjectTracker__/home/thayer/workspace/.git_step-3=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="step-3">\n<project>/RemoteSystemsTempFiles</project>\n<project>/module1_hw_wrapper</project>\n<project>/module1_vts</project>\n<project>/module1_vts_system</project>\n</projects>
+//BranchProjectTracker__/home/thayer/workspace/.git_step-4=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="step-4">\n<project>/RemoteSystemsTempFiles</project>\n<project>/module1_hw_wrapper</project>\n<project>/module1_vts</project>\n<project>/module1_vts_system</project>\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Finish step-4</message>\n<message>Initial commit</message>\n<message>Finish step-3</message>\n</messages>
+eclipse.preferences.version=1
+show_checkout_confirmation=always

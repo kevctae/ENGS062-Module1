@@ -18,4 +18,6 @@
 			<item value="build"/>
 		</list>
 	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>
