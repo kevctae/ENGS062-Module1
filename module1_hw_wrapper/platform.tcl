@@ -43,3 +43,4 @@ domain active {zynq_fsbl}
 bsp reload
 bsp reload
 platform generate -domains 
+catch {platform remove rgb_led_wrapper}
